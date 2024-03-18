@@ -60,8 +60,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       <Button
         form={form}
         className={`${
-          isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
-        } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
+          isSecondaryVariant ? " text-normal text-white  bg-secondary" : "bg-primary"
+        } text-white  shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
         onClick={!disabled ? action : () => undefined}
         type={isSubmitable ? "submit" : "button"}
         ref={ref}

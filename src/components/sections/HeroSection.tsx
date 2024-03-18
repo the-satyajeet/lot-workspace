@@ -10,15 +10,15 @@ function HeroSection() {
           Welcome to Leaders of Today (LOT)! Explore, collaborate, and innovate
           with us as we shape tomorrow's success stories together.
         </p>
-        <div>
-          <MainButton text="Register" classes="shadow-none" /> 
-          <div className="flex gap-4">
+        <div className="flex gap-[1.75rem] mt-[3rem] items-center">
+          <MainButton text="Register" classes="shadow-none w-[10.125rem]" /> 
+          <div className="flex gap-[1.56rem] items-center">
             <img src="/svgs/learn-more.svg" alt="view positions" />
-            <p className="font-bold ">View Positions</p>
+            <p className="font-bold text-normal">View Positions</p>
           </div>
         </div>
       </div>
-      <div><img src="/svgs/round-logo.svg" alt="round logo" /></div>
+      <div><img src="/svgs/round-logo.svg" alt="round logo" className="md:w-[80rem]"/></div>
     </section>
   );
 }

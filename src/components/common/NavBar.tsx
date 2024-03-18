@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { X } from "lucide-react";
-import Link from "next/link";
 import MainButton from "./MainButton";
 
 function NavBar() {
@@ -15,7 +14,7 @@ function NavBar() {
     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
-        <div className="flex justify-between mx-[41px] items-center">
+        <div className="flex justify-between md:mx-[9rem] items-center">
           <div>
             <img src="/images/logo.png" alt="logo" />
           </div>

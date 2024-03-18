@@ -12,13 +12,15 @@ export default function Home() {
   return (
     <main>
       <NavBar />
-      <HeroSection />
-      <ServiceSection />
-      <VideoPlayerSection />
-      <TestimonialSection />
-      <TeamSection />
-      <NewsLetterSection />
-      <FooterSection />
+      <div className="mt-24 md:mt-8 px-4 md:px-[9rem]">
+        <HeroSection />
+        <ServiceSection />
+        <VideoPlayerSection />
+        <TestimonialSection />
+        <TeamSection />
+        <NewsLetterSection />
+        <FooterSection />
+      </div>
     </main>
   );
 }
