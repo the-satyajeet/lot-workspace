@@ -42,7 +42,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
     ref
   ) => {
     const propWidth =
-      width === "full_width" ? "w-full" : width ? width : "w-[245px]";
+      width === "full_width" ? "w-full" : width ? width : "w-[7.4375rem]";
 
     const isSecondaryVariant = variant !== "primary";
 

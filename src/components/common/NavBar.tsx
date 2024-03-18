@@ -54,7 +54,7 @@ function NavBar() {
             >
               Login
             </p>
-            <MainButton text="Sign up"/>
+            <MainButton text="Sign up" classes="shadow-none" />
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/svgs/sf_logo.svg" alt="logo" className="w-[7rem]" />
+            <img src="/images/logo-ico.png" alt="logo" className="w-[1rem]" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
@@ -87,15 +87,40 @@ function NavBar() {
         {menu ? (
           <div className="my-8 select-none animate-in slide-in-from-right">
             <div className="flex flex-col gap-8 mt-8 mx-4">
-              <p className="text-black cursor-pointer">
-                <span>How it works</span>
-              </p>
-              {/* Add more links here */}
+            <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              Home
+            </p>
+            <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              Events
+            </p>
+            <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              Webinars
+            </p>
+            <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              About Us
+            </p>
+            
+            <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              Contact
+            </p>
 
               <div className="flex flex-col gap-[40px] select-none">
-                <Link href="/auth/login" className="text-black cursor-pointer">
-                  Signin
-                </Link>
+              <p
+              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
+            >
+              Login
+            </p>
+            <MainButton text="Sign up" classes="shadow-none" />
               </div>
             </div>
           </div>
