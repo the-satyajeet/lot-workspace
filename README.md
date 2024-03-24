@@ -25,6 +25,9 @@ student groups to connect, collaborate, organize their activities, and manage th
 * Offer student organizations the ability to advertise their events and activities to the wider LPU community.
 * Allow guest users to purchase tickets for events directly through the platform.
 
+## NATURE OF PROJECT:
+The project involves the development of a web-based platform using modern technologies and frameworks to facilitate communication and collaboration among LOT members. It requires expertise in web development, database management, and user interface design.
+
 ## TO run the development server:
 
 ```bash
