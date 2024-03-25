@@ -28,6 +28,10 @@ student groups to connect, collaborate, organize their activities, and manage th
 ## NATURE OF PROJECT:
 The project involves the development of a web-based platform using modern technologies and frameworks to facilitate communication and collaboration among LOT members. It requires expertise in web development, database management, and user interface design.
 
+## NOVELTY OF THIS PROJECT:
+
+The project introduces a centralized platform tailored specifically for LOT members to streamline their organizational activities. While similar platforms exist, this project will focus on the unique needs and dynamics of LOT, offering customized features and functionalities.
+
 ## TO run the development server:
 
 ```bash
