@@ -3,7 +3,7 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   return (
-    <section className="flex justify-between md:flex-row gap-4 flex-col items-center">
+    <section className="flex justify-between flex-col md:flex-row gap-4 items-center">
       <div>
         <p className="font-[850] text-2xl md:leading-[5.0625rem] md:text-[4.375rem] text-darkBlue ">Empowering Leaders, Igniting Tomorrow's Brightest Ideas</p>
         <p className="text-[1.375rem] font-[500] ">
@@ -14,7 +14,7 @@ function HeroSection() {
           <MainButton text="Register" classes="shadow-none w-[10.125rem]" /> 
           <div className="flex gap-[1.56rem] items-center">
             <img src="/svgs/learn-more.svg" alt="view positions" />
-            <p className="font-bold text-normal">View Positions</p>
+            <p className="font-bold text-normal animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent cursor-pointer"><a href="/">Happenings</a></p>
           </div>
         </div>
       </div>

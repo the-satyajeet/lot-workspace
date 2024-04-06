@@ -1,0 +1,5 @@
+1: Announcement
+2: Discussion Forums
+3: ChatBot 
+4: star for testimonial feedback so that we can put it on top
+5: Pin idea automatically if gets max likes
