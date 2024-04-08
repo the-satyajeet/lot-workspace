@@ -7,6 +7,7 @@ import TeamSection from "../components/sections/TeamSection";
 import FooterSection from "../components/sections/FooterSection";
 import EventSection from "../components/sections/EventSection";
 import NewsLetterSection from "../components/sections/NewsletterSection";
+import Login from "../components/sections/login";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <TeamSection />
         <NewsLetterSection />
         <FooterSection />
+        <Login />
       </div>
     </main>
   );
