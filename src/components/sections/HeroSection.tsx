@@ -3,10 +3,10 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   return (
-    <section className="flex justify-between flex-col md:flex-row gap-4 items-center">
+    <section className="flex justify-between flex-col md:flex-row gap-2 items-center ">
       <div>
-        <p className="font-[850] text-2xl md:leading-[5.0625rem] md:text-[4.375rem] text-darkBlue ">Empowering Leaders, Igniting Tomorrow's Brightest Ideas</p>
-        <p className="text-[1.375rem] font-[500] ">
+        <p className="font-[850] text-2xl md:leading-[5.0625rem] md:text-[4.375rem] text-white ">Empowering Leaders, Igniting Tomorrow's Brightest Ideas</p>
+        <p className="text-[1.375rem] font-[500] text-white">
           Welcome to Leaders of Today (LOT)! Explore, collaborate, and innovate
           with us as we shape tomorrow's success stories together.
         </p>
