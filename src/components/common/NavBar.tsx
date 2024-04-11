@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0 md:shadow-none z-20 ">
       {/* DESKTOP */}
-      <div className=" hidden lg:block bg-zinc-950 p-4">
+      <div className=" hidden lg:block animate-in fade-in zoom-in bg-zinc-950 p-4">
         <div className="flex m-1 items-center justify-between pl-8 pr-8">
           <div>
             <img src="/images/lot-white-logo.png" alt="logo" />
@@ -62,7 +62,7 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 zoom-in  ${
+        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in  ${
           menu ? " bg-primary py-2" : ""
         } `}
       >
@@ -73,21 +73,21 @@ function NavBar() {
           <div className="flex items-center gap-[40px]">
             {menu ? (
               <X
-                className="cursor-pointer zoom-in text-black"
+                className="cursor-pointer animate-in fade-in zoom-in text-black"
                 onClick={toggleMenu}
               />
             ) : (
               <img
                 src="/svgs/hamburger.svg"
                 alt="logo"
-                className="cursor-pointer"
+                className="cursor-pointer animate-in fade-in zoom-in"
                 onClick={toggleMenu}
               />
             )}
           </div>
         </div>
         {menu ? (
-          <div className="my-8 select-none ">
+          <div className="my-8 select-none animate-in slide-in-from-right">
             <div className="flex flex-col gap-8 mt-8 mx-4">
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}

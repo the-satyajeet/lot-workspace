@@ -95,7 +95,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
         ref={ref}
         disabled
       >
-        <Loader2 className="mr-2 h-4 w-4" />
+        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
         {dataLoadingText}
       </Button>
     );
