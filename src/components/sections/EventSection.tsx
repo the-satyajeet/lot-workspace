@@ -5,8 +5,8 @@ function EventSection() {
       <div className="w-[100rem] h-[10rem] via-customLightGray"></div>
       <div className="flex bg-gray-500">
         <div>
-          <p>Squid Game</p>
-          <p className="w-[20rem]">
+          <p className='text-white'>Squid Game</p>
+          <p className="w-[20rem] text-white">
             A Netflix series 'Squid Game' based event to be held on our LPU
             campus.
           </p>

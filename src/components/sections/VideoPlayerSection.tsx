@@ -2,7 +2,7 @@ import React from 'react'
 
 function VideoPlayerSection() {
   return (
-    <div>
+    <div className='text-white'>
       VideoPlayerSection
     </div>
   )
