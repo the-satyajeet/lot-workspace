@@ -4,13 +4,13 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
 import Link from "next/link";
-import Login from "../sections/login";
 
-function NavBar() {
+export default function NavBar() {
   const [menu, setMenu] = useState(false);
   const toggleMenu = () => {
     setMenu(!menu);
   };
+  const [login, setLogin] = useState(true);
 
   return (
     <div className="md:sticky md:top-0 md:shadow-none z-20 ">
@@ -118,11 +118,13 @@ function NavBar() {
               </p>
 
               <div className="flex flex-col gap-[40px] select-none">
-                <p
+                <button onClick={() => setLogin(!login)}
                   className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
                 >
-                  Login
-                </p>
+                  {login ? "Login" : "Login"}
+                  Satya
+                </button>
+                {login ? <Login /> : null}
                 <MainButton text="Sign up" classes="shadow-none" />
               </div>
             </div>
@@ -135,4 +137,11 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+
+function Login() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
+}
