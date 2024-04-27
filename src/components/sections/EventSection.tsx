@@ -3,7 +3,7 @@ function EventSection() {
   return (
     <section>
       <div className="w-[100rem] h-[10rem] via-customLightGray"></div>
-      <div className="flex bg-gray-500">
+      <div className="flex">
         <div>
           <p className='text-white'>Squid Game</p>
           <p className="w-[20rem] text-white">

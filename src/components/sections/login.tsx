@@ -9,7 +9,7 @@ const Login = () => {
         
         <div><span className="text-neutral-500 text-lg font-light font-['Vinila Test']">Welcome back,</span><span className="text-orange-600 text-lg font-bold font-['Vinila Test']"> Leader!</span></div>
         <div className="flex-col justify-start items-start gap-[11.42px] flex">
-            <input type="email" className='w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-start items-center gap-[7.52px] inline-flex cursor-pointer hover:border-orange-600 text-neutral-500 text-xs font-light font-["Vinila Test"]' placeholder='example@email.com'/>
+            <input type="email" className='w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-start items-center gap-[7.52px] inline-flex cursor-pointer hover:border-orange-600 text-neutral-100 text-xs font-light font-["Vinila Test"]' placeholder='example@email.com'/>
             <input type="password" className="w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-start items-center gap-[7.52px] inline-flex cursor-pointer hover:border-orange-600 text-neutral-100 text-xs font-light font-['Vinila Test']" placeholder='Password'/>
             <div className="w-[251.67px] justify-between items-center inline-flex">
                 <div className="justify-center items-center gap-[4.76px] flex">
