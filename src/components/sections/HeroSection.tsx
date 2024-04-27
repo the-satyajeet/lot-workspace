@@ -14,7 +14,7 @@ function HeroSection() {
           <MainButton text="Register" classes="shadow-none w-[10.125rem]" />
           <div className="flex gap-[1.56rem] items-center">
             <img src="/svgs/learn-more.svg" alt="view positions" />
-            <p className="font-bold text-normal animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent cursor-pointer"><a href="/">Happenings</a></p>
+            <p className="font-bold text-normal animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent cursor-pointer"><a href="/squidgames">Happenings</a></p>
           </div>
         </div>
       </div>

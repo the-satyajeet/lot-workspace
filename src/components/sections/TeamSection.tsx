@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamSection() {
   return (
-    <div>
+    <div className='text-white'>
       TeamSection
     </div>
   )

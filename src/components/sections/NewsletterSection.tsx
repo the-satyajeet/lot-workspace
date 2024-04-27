@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsLetterSection() {
   return (
-    <div>
+    <div className='text-white'>
       NewsLetterSection
     </div>
   )
