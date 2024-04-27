@@ -16,17 +16,17 @@ const Login = () => {
                     <div className="w-[18.05px] h-[18.05px] bg-neutral-800 rounded-[3.01px] border border-neutral-500" />
                     <div className="text-neutral-500 text-[10.53px] font-light font-['Vinila Test']">Remember me</div>
                 </div>
-                <div className="text-white text-[10.53px] font-normal font-['Vinila Test']">Forgot Password?</div>
+                <div className="text-white text-[10.53px] font-normal font-['Vinila Test'] cursor-pointer"><a href=''>Forgot Password?</a></div>
             </div>
-            <div className="w-[252.73px] p-[7.52px] bg-orange-600 rounded-[3.01px] border border-red-300 justify-center items-center gap-[7.52px] inline-flex">
-                <div className="text-white text-xs font-bold font-['Vinila Test']">Login</div>
-            </div>
+            <button className="w-[252.73px] p-[7.52px] bg-orange-600 rounded-[3.01px] border border-red-300 justify-center items-center gap-[7.52px] inline-flex">
+                <p className="text-white text-xs font-bold font-['Vinila Test']">Login</p>
+            </button>
             <div className="self-stretch text-center text-neutral-500 text-[10.53px] font-light font-['Vinila Test']">or continue with</div>
-            <div className="w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-center items-center gap-[7.52px] inline-flex">
+            <button className="w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-center items-center gap-[7.52px] inline-flex">
                 <div className="w-[18.05px] h-[18.05px] relative" />
-                <div className="text-neutral-500 text-xs font-light font-['Vinila Test']">Google Account</div>
-            </div>
-            <div><span className="text-neutral-500 text-[10.53px] font-light font-['Vinila Test']">Don't have an account? </span><span className="text-orange-600 text-[10.53px] font-bold font-['Vinila Test']">Sign Up</span></div>
+                <p className="text-neutral-500 text-xs font-light font-['Vinila Test']">Google Account</p>
+            </button>
+            <div><span className="text-neutral-500 text-[10.53px] font-light font-['Vinila Test']">Don't have an account? </span><span className="text-orange-600 text-[10.53px] font-bold font-['Vinila Test'] cursor-pointer"><a href=''>Sign Up</a></span></div>
         </div>
     </div>
 </div>
