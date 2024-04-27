@@ -13,7 +13,7 @@ const Login = () => {
             <input type="password" className="w-[252.73px] p-[7.52px] bg-neutral-800 rounded-[3.01px] border border-neutral-500 justify-start items-center gap-[7.52px] inline-flex cursor-pointer hover:border-orange-600 text-neutral-100 text-xs font-light font-['Vinila Test']" placeholder='Password'/>
             <div className="w-[251.67px] justify-between items-center inline-flex">
                 <div className="justify-center items-center gap-[4.76px] flex">
-                    <div className="w-[18.05px] h-[18.05px] bg-neutral-800 rounded-[3.01px] border border-neutral-500" />
+                    <input className="w-[18.05px] h-[18.05px] bg-neutral-800 rounded-[3.01px]  border border-neutral-500" type="checkbox" />
                     <div className="text-neutral-500 text-[10.53px] font-light font-['Vinila Test']">Remember me</div>
                 </div>
                 <div className="text-white text-[10.53px] font-normal font-['Vinila Test'] cursor-pointer"><a href=''>Forgot Password?</a></div>
