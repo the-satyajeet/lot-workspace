@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -8,7 +9,7 @@ const SignUp = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
-  const handleSignUp = async (e) => {
+  const handleSignUp = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     try {
       const response = await axios.post('/api/signup', {
