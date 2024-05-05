@@ -10,7 +10,11 @@ export default function NavBar() {
   const toggleMenu = () => {
     setMenu(!menu);
   };
-  const [login, setLogin] = useState(true);
+  const [showLogin, setShowLogin] = useState(false);
+
+  const handleLoginClick = () => {
+    setShowLogin(!showLogin);
+  }
 
   return (
     <div className="md:sticky md:top-0 md:shadow-none z-20 ">
@@ -51,11 +55,12 @@ export default function NavBar() {
           </div>
           <div className="flex items-center gap-[40px] select-none">
             {/* <Login> */}
-            <p
+            <p onClick={handleLoginClick}
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-white `}
             >
               Login
             </p>
+            {showLogin && <Login />}
             {/* </Login> */}
             <MainButton text="Sign up" classes="shadow-none" />
           </div>
@@ -121,10 +126,10 @@ export default function NavBar() {
                 <button onClick={() => setLogin(!login)}
                   className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
                 >
-                  {login ? "Login" : "Login"}
+                  {/* {login ? "Login" : "Login"} */}
                   Satya
                 </button>
-                {login ? <Login /> : null}
+                {/* {login ? <Login /> : null} */}
                 <MainButton text="Sign up" classes="shadow-none" />
               </div>
             </div>

@@ -48,7 +48,7 @@ public class AuthController {
         User newuser=new User();
         //verify that pass and con pass is matching
 
-        if(!Objects.equals(newuser.getPassword(), newuser.getConpassword())) {
+        if(Objects.equals(newuser.getPassword(), newuser.getConpassword())) {
             newuser.setUserName(user.getUserName());
             newuser.setName(user.getName());
             newuser.setEmail(user.getEmail());
